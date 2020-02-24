@@ -25,7 +25,7 @@ export default class Home extends Component {
 				</div>
 				<h1 className="homepagetitle"><GiMushroom size="100px"/>Mushroom</h1>
 				<div className="tagline">
-				<h3>A New Parent's Realiable Resource</h3>
+				<h2>"Watch  How Your New Baby Grows"</h2>
 				</div>
 				<div className="footer">
 					<div className="footer-copyright-home">

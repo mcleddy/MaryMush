@@ -11,6 +11,8 @@ function NavigationsComponent() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
+          <NavDropdown.Item href="/login">Login</NavDropdown.Item>
+          <NavDropdown.Item href="/signup">Signup</NavDropdown.Item>
               <NavDropdown.Item href="/milestoneshome">Milestones</NavDropdown.Item>
               <NavDropdown.Item href="/activitieshome">Activities</NavDropdown.Item>
               <NavDropdown.Item href="/parentshome">Parent Resources</NavDropdown.Item>
