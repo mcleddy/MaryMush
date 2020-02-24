@@ -1,16 +1,12 @@
 import React from 'react';
 import "./sleeping.css";
-import { NavBar } from '../../../components/Navbar'
+import { Navigations} from '../../../components/Navigations'
 
 class Sleeping extends React.Component {
     render() {
         return (
             <div>
-<<<<<<< HEAD:client/src/pages/ParentResources/Sleeping/index.jsx
                 <Navigations />
-=======
-                <NavBar />
->>>>>>> c06b41f3b39b2202b11c9772903e26f5f9358d01:client/src/pages/EatingandSleepingCharts/Sleeping/index.jsx
                 <table>
                     <thead>
                         <tr>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./cognitive.css";
 import Chart from "chart.js";
 import Ap from './cogLog'
-import { NavBar } from '../../../components/Navbar'
+import { Navigations } from '../../../components/Navigations'
 
 const barOptions_stacked = {
     tooltips: {
@@ -105,7 +105,7 @@ export default class Cognitive extends Component {
     render() {
         return (
             <div>
-                <NavBar/>
+                <Navigations/>
                 <div className="background">
                 <div className="heading">
                     <h1>Cognitive Skills</h1>
@@ -118,7 +118,6 @@ export default class Cognitive extends Component {
                 </div>
                 <Ap />
             </div>
-<<<<<<< HEAD
             <div className="footer">
                     <div className="footer-copyright-milc">
                         <h7 id="src"> Information Sourced from the Center for Disease Control and The World Health Organization</h7>
@@ -126,9 +125,6 @@ export default class Cognitive extends Component {
                         <h8 id="cop"> &copy; 2020 Copyright: Mushroom</h8>
                     </div>
                 </div>
-=======
-            
->>>>>>> c06b41f3b39b2202b11c9772903e26f5f9358d01
             </div>
         )
     }

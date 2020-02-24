@@ -4,14 +4,13 @@ import { Route } from 'react-router-dom'
 import LoginForm from './pages/LoginForm'
 import SignupForm from './pages/SignupForm'
 import Home from './pages/Home'
-import { NavBar } from './components'
+
 //Milestones
 import MilestonesHome from "./pages/Milestones"
 import Cognitive from './pages/Milestones/Cognitive'
 import Motor from './pages/Milestones/Motor'
 import Social from './pages/Milestones/Social'
 import Verbal from './pages/Milestones/Verbal'
-<<<<<<< HEAD
 //Parent Resources
 import ParentsHome from "./pages/ParentResources"
 import Eating from "./pages/ParentResources/Eating"
@@ -82,9 +81,6 @@ class App extends Component {
 						user: response.data.user
 					})
 				}
-				else {
-					console.log('Need error message');
-				}
 			})
 	}
 
@@ -92,11 +88,6 @@ class App extends Component {
 		return (
 			//Home Paths
 			<div className="">
-			{/* Navbar on every page */}
-			<NavBar
-					_logout={this._logout}
-					loggedIn={this.state.loggedIn}
-				/>
 				{/*  Individual Things */}
 				<Route
 					exact
@@ -265,11 +256,6 @@ class App extends Component {
 						<Emergency />
 					}
 				/>
-<<<<<<< HEAD
-=======
-				<Footer/>
-				
->>>>>>> c06b41f3b39b2202b11c9772903e26f5f9358d01
 			</div>
 
 		)

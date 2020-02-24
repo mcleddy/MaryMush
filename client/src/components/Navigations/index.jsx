@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from 'react-router-dom'
 import './navigations.css'
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import logo from './logo.jpg'
 import {GiMushroomGills, GiMushroom} from "react-icons/gi"
 function NavigationsComponent() {
   return (

@@ -1,17 +1,13 @@
 import "./eating.css";
 import React, { Component } from 'react';
 import { NavBar } from '../../../components/Navbar'
-
+import {Navigations} from '../../../components/Navigations'
 class Eating extends Component {
     render() {
         return (
             <div>
-<<<<<<< HEAD:client/src/pages/ParentResources/Eating/index.jsx
                 <Navigations/>
                 <div className="table">
-=======
-                <NavBar />
->>>>>>> c06b41f3b39b2202b11c9772903e26f5f9358d01:client/src/pages/EatingandSleepingCharts/Eating/index.jsx
                 <table>
                     <thead>
                         <tr>
